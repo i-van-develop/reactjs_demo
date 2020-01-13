@@ -1,0 +1,32 @@
+#root{
+    font-family: Arial;
+}
+
+
+.button{
+    font-family: Arial;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #b4b4b4;
+    background-color: #d9d9d9;
+    color:#737373;
+    width:80px;
+    height:30px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    user-select: none;
+}
+
+.button:hover{
+    background-color: #e1e1e1;
+}
+
+.button-disabled, .button-disabled:hover{
+    background-color: #f0f0f0;
+    color:#ccc;
+    cursor: inherit;
+}
